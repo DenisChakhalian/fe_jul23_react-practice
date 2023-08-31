@@ -255,8 +255,8 @@ export const App = () => {
                             data-cy="SortIcon"
                             className={cn('fas', {
                               'fa-sort': sortBy !== 'ID',
-                              'fa-sort-down': sortBy === 'ID' && !sortByReverse,
-                              'fa-sort-up': sortBy === 'ID' && sortByReverse,
+                              'fa-sort-down': sortBy === 'ID' && sortByReverse,
+                              'fa-sort-up': sortBy === 'ID' && !sortByReverse,
                             })}
                           />
                         </span>
@@ -278,9 +278,9 @@ export const App = () => {
                             className={cn('fas', {
                               'fa-sort': sortBy !== 'Product',
                               'fa-sort-down':
-                              sortBy === 'Product' && !sortByReverse,
-                              'fa-sort-up':
                               sortBy === 'Product' && sortByReverse,
+                              'fa-sort-up':
+                              sortBy === 'Product' && !sortByReverse,
                             })}
                           />
                         </span>
@@ -302,9 +302,9 @@ export const App = () => {
                             className={cn('fas', {
                               'fa-sort': sortBy !== 'Category',
                               'fa-sort-down':
-                              sortBy === 'Category' && !sortByReverse,
-                              'fa-sort-up':
                               sortBy === 'Category' && sortByReverse,
+                              'fa-sort-up':
+                              sortBy === 'Category' && !sortByReverse,
                             })}
                           />
                         </span>
@@ -326,9 +326,9 @@ export const App = () => {
                             className={cn('fas', {
                               'fa-sort': sortBy !== 'User',
                               'fa-sort-down':
-                              sortBy === 'User' && !sortByReverse,
-                              'fa-sort-up':
                               sortBy === 'User' && sortByReverse,
+                              'fa-sort-up':
+                              sortBy === 'User' && !sortByReverse,
                             })}
                           />
                         </span>
