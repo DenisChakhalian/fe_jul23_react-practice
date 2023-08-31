@@ -95,6 +95,8 @@ export const App = () => {
     setQuery('');
     setSelectedUserName('');
     setSelectedCategory([]);
+    setSortBy('');
+    setSortByReverse(false);
   }
 
   function handleCategory(categoryTitle) {
